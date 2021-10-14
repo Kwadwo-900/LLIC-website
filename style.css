@@ -70,3 +70,18 @@ footer{
 	width: 100%;
 	height: 40 px;
 }
+div h3{
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+	animation-name: animate_welcome;
+	animation-duration: 3s;
+	animation-direction: all;
+}
+
+@keyframes animate_welcome{
+	from{font-size: 4px} 
+	to{font-size: 100px}
+}
