@@ -1,5 +1,10 @@
 body{
 	background-color: #a3b8c9;
+  background-image: url('https://th.bing.com/th/id/R.ffc806c31a070e0c8e7a71c2a954e94b?rik=L%2bIltmtnPp7jpQ&pid=ImgRaw&r=0');
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-position: center;
+  background-attachment: scroll;
 }
 
 
@@ -34,29 +39,18 @@ footer{
 	height: 40 px;
 }
 
-.container h3{
-	align-content: center;
-	justify-content: center;
-	text-align: center;
-	padding-top: 50px;
-	font-size: 60px;
-	animation-name: animate_welcome;
-	animation-duration: 3s;
-	animation-direction: all;
-}
 
-@keyframes animate_welcome{
-	from{font-size: 4px} 
-	to{font-size: 60px}
+.navbar-brand{
+	
+	border-right: 1px solid white;
 }
-
 
 
 
 .topnav {
   background-color: #333;
   overflow: hidden;
-  position: static;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -74,6 +68,7 @@ footer{
 .active {
   background-color: #04AA6D;
   color: white;
+  padding-right: 10px;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
